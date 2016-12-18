@@ -8,8 +8,8 @@
 \use_default_options true
 \maintain_unincluded_children false
 \language english
-\language_package default
-\inputencoding auto
+\language_package auto
+\inputencoding utf8x
 \fontencoding global
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -27,6 +27,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -57,7 +58,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -88,7 +89,7 @@ name "part:Tenses"
 \begin_layout Standard
 Unlike Russian, in which there are only 3 forms of tenses (настоящее время;
  прошедшее время; будущее время); English has divided the tenses into many
- subparts.
+ sub-parts.
  The appropriate sentence for a particular tense are formed by using specific
  
 \begin_inset CommandInset ref
@@ -101,8 +102,145 @@ reference "part:Verb-Forms"
  Let's start looking at the tenses one-by-one.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+The verbs have three form.
+ In this tutorial, we represent these forms as:
+\end_layout
+
+\begin_layout Plain Layout
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1 
+\end_layout
+
+\end_inset
+
+= First form of Verb
+\end_layout
+
+\begin_layout Plain Layout
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2 
+\end_layout
+
+\end_inset
+
+= Second form of Verb
+\end_layout
+
+\begin_layout Plain Layout
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+3 
+\end_layout
+
+\end_inset
+
+= Third form of Verb
+\end_layout
+
+\begin_layout Plain Layout
+And thus, if we have:
+\end_layout
+
+\begin_layout Plain Layout
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1 
+\end_layout
+
+\end_inset
+
++ 
+\emph on
+ing 
+\emph default
+⇒ add `ing' to the end 
+\end_layout
+
+\begin_layout Plain Layout
+for example, take the verb `go' (the first form)
+\end_layout
+
+\begin_layout Plain Layout
+go + 
+\emph on
+ing 
+\emph default
+⇒ going
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Present Tense [Прошедшее Время]
+\end_layout
+
+\begin_layout Subsection
+Simple Present
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Simple-Present"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is used for expressing general facts, something which happens in day-to-day
+ life.
+ The sentence structure is:
+\end_layout
+
+\begin_layout Quote
+
+\family sans
+\series bold
+\shape italic
+\color blue
+Noun/Pronoun + Verb
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+First-Form
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
@@ -110,6 +248,204 @@ Verb Forms
 \begin_inset CommandInset label
 LatexCommand label
 name "part:Verb-Forms"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verb [First Form]
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+linebreak
+\end_layout
+
+\end_inset
+
+Base Form
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Second Form
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+linebreak
+\end_layout
+
+\end_inset
+
+Past Form
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Third Form
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+linebreak
+\end_layout
+
+\end_inset
+
+Past Participle Form
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+go
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+went
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gone
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+catch
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+caught
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+caught
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cut
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cut
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cut
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+eat
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+eaten
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
