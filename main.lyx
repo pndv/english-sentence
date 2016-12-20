@@ -220,27 +220,69 @@ name "subsec:Simple-Present"
 \end_layout
 
 \begin_layout Standard
-This is used for expressing general facts, something which happens in day-to-day
- life.
+This is used for expressing general facts (something which is always true),
+ something which happens routinely in life.
  The sentence structure is:
 \end_layout
 
-\begin_layout Quote
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 
 \family sans
 \series bold
 \shape italic
 \color blue
-Noun/Pronoun + Verb
+Singular Noun/Pronoun[Subject] + Verb
 \begin_inset script subscript
 
 \begin_layout Plain Layout
-First-Form
+First-Form-plural
 \end_layout
 
 \end_inset
 
+ + {Predicate}
+\end_layout
 
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Plural 
+\family sans
+\series bold
+\shape italic
+\color blue
+Noun/Pronoun[Subject] + Verb
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+First-Form-singular
+\end_layout
+
+\end_inset
+
+ + {Predicate}
+\end_layout
+
+\begin_layout Standard
+For example:
+\end_layout
+
+\begin_layout Itemize
+General Fact
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dog walks on four legs
+\end_layout
+
+\begin_layout Itemize
+Wednesday is the third day of the week
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Something which happens in a day-to-day life, as a routine
 \end_layout
 
 \begin_layout Part
