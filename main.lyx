@@ -225,45 +225,110 @@ This is used for expressing general facts (something which is always true),
  The sentence structure is:
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family sans
-\series bold
-\shape italic
-\color blue
-Singular Noun/Pronoun[Subject] + Verb
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-First-Form-plural
-\end_layout
-
-\end_inset
-
- + {Predicate}
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-Plural 
-\family sans
-\series bold
-\shape italic
-\color blue
-Noun/Pronoun[Subject] + Verb
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-First-Form-singular
-\end_layout
-
-\end_inset
-
- + {Predicate}
+\begin_layout Subsubsection
+Singular case
 \end_layout
 
 \begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle" tabularwidth="70page%">
+<column alignment="left" valignment="middle" width="20col%">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+First Person
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I + [am]/[first-form-singular] + rest of sentence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Second Person
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+You + [are]/[first-form-singular] + rest of sentence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Third Person
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+He/She/It + [first-form-singular+
+\series bold
+s
+\series default
+] + rest of sentence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Proper Noun
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Proper-Noun (like name of person, place) + [first-form-singular] + rest
+ of the sentence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+\noindent
 For example:
 \end_layout
 
@@ -273,16 +338,41 @@ General Fact
 
 \begin_deeper
 \begin_layout Itemize
-Dog walks on four legs
+Dog walks on four legs [Dog - noun, singular, third-person ; walks - walk
+ {first-form} + s]
 \end_layout
 
 \begin_layout Itemize
-Wednesday is the third day of the week
+I play flute [I -first person; play - first form]
+\end_layout
+
+\begin_layout Itemize
+You study maths [You - second-person; study - first-form]
+\end_layout
+
+\begin_layout Itemize
+Wednesday is the third day of the week [Wednesday - proper noun; is - first-form
+-singular]
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 Something which happens in a day-to-day life, as a routine
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The Sun is a star [Sun - proper noun; is - first-form-singular]
+\end_layout
+
+\begin_layout Itemize
+She sits on the bench every evening [She - third person; sits - sit {first-form-
+singular} + s]
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Plural case
 \end_layout
 
 \begin_layout Part
@@ -308,11 +398,7 @@ name "part:Verb-Forms"
 \begin_inset Text
 
 \begin_layout Plain Layout
-First Form 
-\end_layout
-
-\begin_layout Plain Layout
-[Shown as 
+First Form [
 \shape italic
 \color blue
 V
@@ -327,7 +413,7 @@ V
 
 \shape default
 \color inherit
- in this tutorial] 
+] 
 \end_layout
 
 \begin_layout Plain Layout
@@ -340,18 +426,14 @@ Base Form
 \begin_inset Text
 
 \begin_layout Plain Layout
-Second Form
-\end_layout
-
-\begin_layout Plain Layout
-[Shown as 
+Second Form [
 \shape italic
 \color blue
 V
 \begin_inset script subscript
 
 \begin_layout Plain Layout
-2 
+2
 \end_layout
 
 \end_inset
@@ -359,7 +441,7 @@ V
 
 \shape default
 \color inherit
-in this tutorial] 
+] 
 \end_layout
 
 \begin_layout Plain Layout
@@ -372,18 +454,14 @@ Past Form
 \begin_inset Text
 
 \begin_layout Plain Layout
-Third Form
-\end_layout
-
-\begin_layout Plain Layout
-[Shown as 
+Third Form [ 
 \shape italic
 \color blue
 V
 \begin_inset script subscript
 
 \begin_layout Plain Layout
-1
+3
 \end_layout
 
 \end_inset
@@ -391,7 +469,7 @@ V
 
 \shape default
 \color inherit
- in this tutorial] 
+] 
 \end_layout
 
 \begin_layout Plain Layout
