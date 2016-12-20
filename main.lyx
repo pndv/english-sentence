@@ -75,6 +75,15 @@
 English Sentence Structure
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Tenses
 \begin_inset CommandInset label
@@ -205,6 +214,7 @@ ing
 \end_layout
 
 \begin_layout Section
+\noindent
 Present Tense [Прошедшее Время]
 \end_layout
 
@@ -249,7 +259,7 @@ First Person
 \begin_inset Text
 
 \begin_layout Plain Layout
-I + [am]/[first-form-singular] + rest of sentence
+I + [am]/[first-form] + rest of sentence
 \end_layout
 
 \end_inset
@@ -269,7 +279,7 @@ Second Person
 \begin_inset Text
 
 \begin_layout Plain Layout
-You + [are]/[first-form-singular] + rest of sentence
+You + [are]/[first-form] + rest of sentence
 \end_layout
 
 \end_inset
@@ -289,7 +299,7 @@ Third Person
 \begin_inset Text
 
 \begin_layout Plain Layout
-He/She/It + [first-form-singular+
+He/She/It + [first-form+
 \series bold
 s
 \series default
@@ -313,8 +323,7 @@ Proper Noun
 \begin_inset Text
 
 \begin_layout Plain Layout
-Proper-Noun (like name of person, place) + [first-form-singular] + rest
- of the sentence
+Proper-Noun (like name of person, place) + [first-form] + rest of the sentence
 \end_layout
 
 \end_inset
@@ -373,6 +382,194 @@ singular} + s]
 \end_deeper
 \begin_layout Subsubsection
 Plural case
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle" tabularwidth="70page%">
+<column alignment="left" valignment="middle" width="20col%">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+First Person
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+We + [are]/[first-form] + rest of sentence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Second Person
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+You + [are]/[first-form] + rest of sentence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Third Person
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+They + [first-form] + rest of sentence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Proper Noun
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Proper-Noun (like name of person, place) + [first-form-singular] + rest
+ of the sentence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+For example:
+\end_layout
+
+\begin_layout Itemize
+They live in Moscow [They - third person plural; live - first form]
+\end_layout
+
+\begin_layout Itemize
+We watch a movie everyday [We - first person plural; watch - first-form]
+\end_layout
+
+\begin_layout Standard
+Now come up with 2 sentences in simple present singular and 2 sentences
+ in simple present plural (along with their translation in Russian).
+ First sentence is given as an example.
+\end_layout
+
+\begin_layout Enumerate
+I go [я иду]
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rule{
+\backslash
+textwidth}{1pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rule{
+\backslash
+textwidth}{1pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rule{
+\backslash
+textwidth}{1pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rule{
+\backslash
+textwidth}{1pt}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
