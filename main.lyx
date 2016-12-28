@@ -65,8 +65,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language french
 \papercolumns 1
 \papersides 1
@@ -312,6 +312,123 @@ He/She/It + [first-form+
 \series bold
 s
 \series default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+There are two more rules to this: 
+\end_layout
+
+\begin_layout Enumerate
+You add 
+\series bold
+-es
+\series default
+ in the following case:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The verbs which end with vowel `o' like `do'
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+`does', `go' 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+`goes'
+\end_layout
+
+\begin_layout Enumerate
+The verbs with 
+\begin_inset Formula $\mathit{sibilant}$
+\end_inset
+
+ sounds end with 
+\series bold
+es
+\series default
+.
+ Sibilant sounds are made by the words which end with -съ, -ч, -скь, -ск,
+ -щ, -з, for example
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+kiss
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ kisses; guess
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+guesses
+\end_layout
+
+\begin_layout Enumerate
+watch
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+watches; search
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+searches
+\end_layout
+
+\begin_layout Enumerate
+box
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+boxes; relax
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+relaxes
+\end_layout
+
+\begin_layout Enumerate
+buzz
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+buzzes; fizz
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+fizzes
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+In case the words ends with a 
+\begin_inset Formula $\mathit{consonant}+y$
+\end_inset
+
+ then it ends with 
+\series bold
+-ies
+\series default
+.
+ For example, worry 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+worries; apply
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+applies 
+\end_layout
+
+\end_inset
+
 ] + rest of sentence
 \end_layout
 
@@ -583,6 +700,16 @@ textwidth}{1pt}
 
 \begin_layout Subsection
 Present Continuous Tense
+\end_layout
+
+\begin_layout Standard
+The present continuous tense, in its simplest form, is used to describe
+ something which is happening currently.
+ It may be for long duration or for short duration.
+ The form of the sentence is:
+\end_layout
+
+\begin_layout Paragraph
 \begin_inset Newpage pagebreak
 \end_inset
 
